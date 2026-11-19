@@ -26,6 +26,10 @@ export default function Home() {
         Student-staffed and instructor-supervised. Typical response time is 1 to 3 days.
         We do not handle medical records, banking, or legal matters.
       </p>
+
+      <p className="mt-6 text-sm">
+        <Link href="/login" className="text-blue-700 underline">Technician sign in</Link>
+      </p>
     </main>
   );
 }
